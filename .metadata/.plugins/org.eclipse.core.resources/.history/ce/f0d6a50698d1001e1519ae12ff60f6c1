@@ -1,0 +1,31 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int x,y,z;
+		System.out.println("Exemplo 01:");
+		x = 5;
+		y = 2;
+		z = x*y;
+		System.out.printf("%d x %d é = %d \n \n",x,y,z);
+		
+		
+		System.out.println("Exemplo 02:");
+		int d;
+		double e,f;
+		d = 5;
+		e = 2;
+		f = d*e;
+		System.out.printf("%d x %.2f é = %.2f\n\n",d,e,f);
+		
+		
+		System.out.println("Exemplo 03:");
+		double g,h,i,area;							// Se aqui fosse do tipo FLOAT seria uma boa prática declarar as linhas debaixo desta forma:
+		g = 6.0;									// g = 6f;
+		h = 8.0;									// h = 8f;
+		i = 5.0;									// i = 5f;
+		area = (g+h) / 2.0 *i;						// area = (g+h) / 2f *i
+		System.out.println(area);
+	}
+
+}

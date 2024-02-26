@@ -1,0 +1,23 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int x,y,z;
+		
+		System.out.println("Exemplo 01:");
+		x = 5;
+		y = 2;
+		z = x*y;
+		System.out.printf("%d x %d é = %d \n \n",x,y,z);
+		
+		
+		System.out.println("Exemplo 02:");
+		int x;
+		double y;
+		
+		x = 20;
+		y = 30;
+		System.out.printf("%d %f",x,y);
+	}
+
+}
