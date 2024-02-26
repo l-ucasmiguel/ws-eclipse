@@ -7,7 +7,10 @@ public class Main {
 		
 		System.out.print("Digite um número de ponto flutuante: ");
 		
-		Locale.setDefault(Locale.US);
+		// Normalmente o eclipse segue o padrão do país do usuário,
+		// no caso do BR a separação de ponto flutuante é feito com ','
+		
+		Locale.setDefault(Locale.US);	// Usamos este comando para padronizar com US que por padrão usa '.' 
 		Scanner sc = new Scanner(System.in);
 		
 		double x; 
