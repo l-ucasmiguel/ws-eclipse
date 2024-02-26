@@ -13,7 +13,7 @@ public class Main {
 		double x; 
 		x = sc.nextDouble();
 		System.out.printf("Você digitou: %.2f", x);
-		System.out.println("\nAiUdI");
+		System.out.println("\nmovie");
 		
 		sc.close();
 	}
